@@ -14,8 +14,8 @@ button {
 
 .btnContainer {
     position: absolute;
-    right: 50%;
-    left: 50%;
+    top: 5%;
+    left: 65%;
     width: 400px;
     justify-content: center;
     text-align: center;
