@@ -17,7 +17,7 @@ button {
     height: 100px;
     border: none;
     background: none;
-    background-image: url(/imgs/BTN_BG.gif);
+    background-image: url("imgs/BTN_BG.gif");
     background-size: cover;
 }
 
