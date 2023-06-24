@@ -1,16 +1,18 @@
 @keyframes spin-faster {
-  0% {transform: rotateY(0deg);}
-  20% {transform: rotateY(0deg);}
-  37.5% {transform: rotateY(360deg);}
-  52.5% {transform: rotateY(0deg);}
-  65% {transform: rotateY(360deg);}
-  75% {transform: rotateY(0deg);}
-  85% {transform: rotateY(360deg);}
-  90% {transform: rotateY(0deg);}
-  95% {transform: rotateY(360deg);}
-  97.5% {transform: rotateY(0deg);}
-  100% {transform: rotateY(360deg);}
+  0% {transform: rotateY(0deg);}     /*17.5%|1.14285714 |0.875000002  s*/
+  17.5% {transform: rotateY(360deg);} /*15  %|1.33333333 |0.750000002  s*/
+  32.5% {transform: rotateY(0deg);}   /*12.5%|1.6        |0.625  s*/
+  45% {transform: rotateY(360deg);}   /*10  %|2          |0.5  s*/
+  55% {transform: rotateY(0deg);}     /*10  %|2          |0.5  s*/
+  65% {transform: rotateY(360deg);}   /*5   %|4          |0.25  s*/
+  70% {transform: rotateY(0deg);}     /*5   %|4          |0.25  s*/
+  75% {transform: rotateY(360deg);}   /*2.5 %|8          |0.125  s*/
+  77.5% {transform: rotateY(0deg);}   /*2.5 %|8          |0.125  s*/
+  80% {transform: rotateY(360deg);}  /*|  */
+  100%{transform: rotateY(0deg);}
 }
+
+
 @keyframes spin-slower {
   0% {transform: rotateY(0deg);}
   10% {transform: rotateY(720deg);}
@@ -18,9 +20,13 @@
   55% {transform: rotateY(1800deg);}
   100% {transform: rotateY(2160deg);}
 }
+
+
 button:disabled {
   color: black;
 }
+
+
 @keyframes glow {
   0% {text-shadow: 0px -1px 3px purple, 0 3px purple, -1px 0 3px purple, 1px 0 3px purple;}
   25% {text-shadow: 0px -1px 3px red, 0 3px red, -1px 0 3px red, 1px 0 3px red;}
